@@ -50,9 +50,9 @@
 }
 
 //----------------------------------------------------------------------------------------------------------------------
-#pragma mark - Banners : Delegate
+#pragma mark - Banners : Delegate : required
 
-- (void)AppSerenityAdsRequireShowBannerView:(UIView*)bannerBox byNetwork:(NSString*)networkId
+- (void)AppSerenityAdsRequireShowBannerView:(UIView*)bannerBox
 {
     [self debugMessage:@"Banner loaded & RequireShowBannerView"];
 
@@ -63,7 +63,7 @@
     [bannerBox setCenter:CGPointMake( placeholderForBanner.frame.size.width/2.f, placeholderForBanner.frame.size.height/2.f )];
 }
 
-- (void)AppSerenityAdsRequireHideBannerView:(UIView*)bannerBox byNetwork:(NSString*)networkId
+- (void)AppSerenityAdsRequireHideBannerView:(UIView*)bannerBox
 {
     [self debugMessage:@"Banner unloaded & RequireHideBannerView"];
 
@@ -71,7 +71,15 @@
     [bannerBox removeFromSuperview];
 }
 
-- (void)AppSerenityAdsFailedLoadBannerWithError:(NSString*)error byNetwork:(NSString*)networkId
+//----------------------------------------------------------------------------------------------------------------------
+#pragma mark - Banners : Delegate : optional
+
+- (void)AppSerenityAdsBannerDidRefresh:(UIView*)bannerBox
+{
+    [self debugMessage:@"Banner did refresh"];
+}
+
+- (void)AppSerenityAdsFailedLoadBannerWithError:(NSString*)error
 {
     [self debugMessage:[NSString stringWithFormat:@"Banner - Failed to load (Error: %@)",error]];
 }

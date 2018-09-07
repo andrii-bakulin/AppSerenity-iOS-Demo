@@ -14,6 +14,6 @@
 Admob         7.31.0
 AppLovin      4.4.1
 Chartboost    7.2.0
-FacebookAds   4.28.1
-UnityAd       2.2.1
+FacebookAds   4.99.3
+UnityAd       2.3.0
 ```
