@@ -2,18 +2,36 @@
 
 ## Let's Go!
 
-- [Basic Integration](https://github.com/andrii-bakulin/AppSerenity-iOS-Demo/wiki/basic-integration)
-- [Banners](https://github.com/andrii-bakulin/AppSerenity-iOS-Demo/wiki/banners)
-- [Interstitial Ads](https://github.com/andrii-bakulin/AppSerenity-iOS-Demo/wiki/interstitial)
-- [Rewarded Video Ads](https://github.com/andrii-bakulin/AppSerenity-iOS-Demo/wiki/rewarded-video)
-- [Additional Methods](https://github.com/andrii-bakulin/AppSerenity-iOS-Demo/wiki/additional-methods)
+- [Basic Integration](https://gitlab.com/AppSerenity/AppSerenity-iOS-Demo/wikis/basic-integration)
+- [Banners](https://gitlab.com/AppSerenity/AppSerenity-iOS-Demo/wikis/banners)
+- [Interstitial Ads](https://gitlab.com/AppSerenity/AppSerenity-iOS-Demo/wikis/interstitial)
+- [Rewarded Video Ads](https://gitlab.com/AppSerenity/AppSerenity-iOS-Demo/wikis/rewarded-video)
+- [Additional Methods](https://gitlab.com/AppSerenity/AppSerenity-iOS-Demo/wikis/additional-methods)
+
+
 
 ## Ad-Network Versions
 
 ```
-Admob         7.31.0
-AppLovin      4.4.1
+AdColony      3.3.5
+Admob         7.33.1
+AppLovin      5.1.2
 Chartboost    7.2.0
-FacebookAds   4.99.3
+FacebookAds   5.0.0
 UnityAd       2.3.0
+```
+
+
+
+## Ad Types:
+
+```
+                Banner          Interstitial    RewardedVideo
+-------------------------------------------------------------------------
+AdColony        -               YES             YES
+Admob           YES             YES             YES
+AppLovin        -               YES             YES
+Chartboost      -               YES             YES
+FacebookAds     YES             YES             -
+UnityAds        -               YES             YES
 ```

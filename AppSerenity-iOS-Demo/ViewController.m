@@ -109,6 +109,30 @@
 }
 
 //----------------------------------------------------------------------------------------------------------------------
+#pragma mark - Interstitial : Forcecd
+
+- (IBAction)clickOnIntestitialIsReadyForced
+{
+    BOOL isReady = [AppSerenityInterstitial isReadyForced];
+    [self showMessage:(isReady ? @"Ready" : @"Not ready")
+                title:@"Intestitial (forced)"];
+}
+
+- (IBAction)clickOnIntestitialShowForced
+{
+    BOOL isInterstitialShowed = [AppSerenityInterstitial showAdForcedWithCallback:^{
+        [self showMessage:@"Interstitial did closed"
+                    title:@"Intestitial (forced)"];
+    }];
+    
+    if( isInterstitialShowed == NO )
+    {
+        [self showMessage:@"Interstitial not showed/not ready (ps: callback will not be call)"
+                    title:@"Intestitial (forced)"];
+    }
+}
+
+//----------------------------------------------------------------------------------------------------------------------
 #pragma mark - Rewarded Video
 
 - (IBAction)clickOnRewardedVideoIsReady

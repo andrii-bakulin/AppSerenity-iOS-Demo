@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define APPSERENITY_SDK_VERSION     @"7.0.2"
+
 @interface AppSerenity : NSObject
 
 + (void)startSessionWithAppId:(NSString*)appId appSecret:(NSString*)appSecret;

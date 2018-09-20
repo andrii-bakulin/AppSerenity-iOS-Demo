@@ -13,7 +13,10 @@
 		11175F4421422B57006C8334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11175F4321422B57006C8334 /* Assets.xcassets */; };
 		11175F4721422B57006C8334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11175F4521422B57006C8334 /* LaunchScreen.storyboard */; };
 		11175F4A21422B57006C8334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11175F4921422B57006C8334 /* main.m */; };
-		11AFA1F321423E55006AEB38 /* AppSerenitySDK-7.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1E421423E55006AEB38 /* AppSerenitySDK-7.0.1.a */; };
+		1190649921540E6F002880C0 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1190649821540E6F002880C0 /* AdColony.framework */; };
+		1190649C215410F7002880C0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1190649B215410F7002880C0 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1190649E2154115B002880C0 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1190649D2154115B002880C0 /* WatchConnectivity.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		11AFA1F321423E55006AEB38 /* AppSerenitySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1E421423E55006AEB38 /* AppSerenitySDK.a */; };
 		11AFA1F421423E55006AEB38 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1E921423E55006AEB38 /* UnityAds.framework */; };
 		11AFA1F521423E55006AEB38 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1EB21423E55006AEB38 /* FBAudienceNetwork.framework */; };
 		11AFA1F621423E55006AEB38 /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1ED21423E55006AEB38 /* AppLovinSDK.framework */; };
@@ -34,10 +37,14 @@
 		11175F4621422B57006C8334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11175F4821422B57006C8334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11175F4921422B57006C8334 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1190649821540E6F002880C0 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
+		1190649B215410F7002880C0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1190649D2154115B002880C0 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		1190649F21541296002880C0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11AFA1E121423E55006AEB38 /* AppSerenityAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSerenityAds.h; sourceTree = "<group>"; };
 		11AFA1E221423E55006AEB38 /* AppSerenityInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSerenityInterstitial.h; sourceTree = "<group>"; };
 		11AFA1E321423E55006AEB38 /* AppSerenityRewardedVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSerenityRewardedVideo.h; sourceTree = "<group>"; };
-		11AFA1E421423E55006AEB38 /* AppSerenitySDK-7.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "AppSerenitySDK-7.0.1.a"; sourceTree = "<group>"; };
+		11AFA1E421423E55006AEB38 /* AppSerenitySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AppSerenitySDK.a; sourceTree = "<group>"; };
 		11AFA1E521423E55006AEB38 /* AppSerenity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSerenity.h; sourceTree = "<group>"; };
 		11AFA1E621423E55006AEB38 /* AppSerenityAdsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSerenityAdsDelegate.h; sourceTree = "<group>"; };
 		11AFA1E921423E55006AEB38 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
@@ -54,13 +61,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1190649E2154115B002880C0 /* WatchConnectivity.framework in Frameworks */,
+				1190649C215410F7002880C0 /* Social.framework in Frameworks */,
 				11AFA1F821423E55006AEB38 /* CHAMoatMobileAppKit.framework in Frameworks */,
 				11AFA1F521423E55006AEB38 /* FBAudienceNetwork.framework in Frameworks */,
-				11AFA1F321423E55006AEB38 /* AppSerenitySDK-7.0.1.a in Frameworks */,
+				11AFA1F321423E55006AEB38 /* AppSerenitySDK.a in Frameworks */,
 				11AFA1F921423E55006AEB38 /* Chartboost.framework in Frameworks */,
 				11AFA1F721423E55006AEB38 /* GoogleMobileAds.framework in Frameworks */,
 				11AFA1F621423E55006AEB38 /* AppLovinSDK.framework in Frameworks */,
 				11AFA1F421423E55006AEB38 /* UnityAds.framework in Frameworks */,
+				1190649921540E6F002880C0 /* AdColony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,8 @@
 				11175F3921422B56006C8334 /* AppSerenity-iOS-Demo */,
 				11AFA1E021423E55006AEB38 /* AppSerenitySDK */,
 				11175F3821422B56006C8334 /* Products */,
+				1190649A215410F7002880C0 /* Frameworks */,
+				1190649F21541296002880C0 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +113,23 @@
 			path = "AppSerenity-iOS-Demo";
 			sourceTree = "<group>";
 		};
+		1190649721540E6F002880C0 /* AdColony */ = {
+			isa = PBXGroup;
+			children = (
+				1190649821540E6F002880C0 /* AdColony.framework */,
+			);
+			path = AdColony;
+			sourceTree = "<group>";
+		};
+		1190649A215410F7002880C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1190649D2154115B002880C0 /* WatchConnectivity.framework */,
+				1190649B215410F7002880C0 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		11AFA1E021423E55006AEB38 /* AppSerenitySDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +138,7 @@
 				11AFA1E621423E55006AEB38 /* AppSerenityAdsDelegate.h */,
 				11AFA1E221423E55006AEB38 /* AppSerenityInterstitial.h */,
 				11AFA1E321423E55006AEB38 /* AppSerenityRewardedVideo.h */,
-				11AFA1E421423E55006AEB38 /* AppSerenitySDK-7.0.1.a */,
+				11AFA1E421423E55006AEB38 /* AppSerenitySDK.a */,
 				11AFA1E721423E55006AEB38 /* Frameworks */,
 			);
 			path = AppSerenitySDK;
@@ -118,11 +147,12 @@
 		11AFA1E721423E55006AEB38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11AFA1E821423E55006AEB38 /* UnityAds */,
-				11AFA1EA21423E55006AEB38 /* FacebookSDK */,
-				11AFA1EC21423E55006AEB38 /* AppLovin */,
+				1190649721540E6F002880C0 /* AdColony */,
 				11AFA1EE21423E55006AEB38 /* AdMob */,
+				11AFA1EC21423E55006AEB38 /* AppLovin */,
 				11AFA1F021423E55006AEB38 /* Chartboost */,
+				11AFA1EA21423E55006AEB38 /* FacebookSDK */,
+				11AFA1E821423E55006AEB38 /* UnityAds */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -318,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -370,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -391,6 +421,7 @@
 					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/AppLovin",
 					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/AdMob",
 					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/Chartboost",
+					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/AdColony",
 				);
 				INFOPLIST_FILE = "AppSerenity-iOS-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,7 +432,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppSerenitySDK",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duksel.AppSerenity-iOS-Demo";
 				PRODUCT_NAME = AppSerenity;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,6 +456,7 @@
 					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/AppLovin",
 					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/AdMob",
 					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/Chartboost",
+					"$(PROJECT_DIR)/AppSerenitySDK/Frameworks/AdColony",
 				);
 				INFOPLIST_FILE = "AppSerenity-iOS-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -432,7 +467,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AppSerenitySDK",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.duksel.AppSerenity-iOS-Demo";
 				PRODUCT_NAME = AppSerenity;
 				TARGETED_DEVICE_FAMILY = "1,2";
