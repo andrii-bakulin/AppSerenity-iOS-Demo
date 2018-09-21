@@ -26,12 +26,12 @@ UnityAd       2.3.0
 ## Ad Types:
 
 ```
-                Banner          Interstitial    RewardedVideo
--------------------------------------------------------------------------
-AdColony        -               YES             YES
-Admob           YES             YES             YES
-AppLovin        -               YES             YES
-Chartboost      -               YES             YES
-FacebookAds     YES             YES             -
-UnityAds        -               YES             YES
+                Banner          Interstitial    RewardedVideo               SupportTestDevice
+---------------------------------------------------------------------------------------------------------------
+AdColony        -               YES             YES                         YES
+Admob           YES             YES             YES                         YES
+AppLovin        -               YES             YES                         -
+Chartboost      -               YES             YES                         -
+FacebookAds     YES             YES             -                           YES
+UnityAds        -               YES             YES                         YES
 ```
