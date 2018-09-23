@@ -104,8 +104,8 @@
 				11175F3D21422B56006C8334 /* ViewController.h */,
 				11175F3E21422B56006C8334 /* ViewController.m */,
 				11175F4021422B56006C8334 /* Main.storyboard */,
-				11175F4321422B57006C8334 /* Assets.xcassets */,
 				11175F4521422B57006C8334 /* LaunchScreen.storyboard */,
+				11175F4321422B57006C8334 /* Assets.xcassets */,
 				11175F4821422B57006C8334 /* Info.plist */,
 				11175F4921422B57006C8334 /* main.m */,
 				11AFA1FA21424ECE006AEB38 /* AppSerenity-Logo.png */,
@@ -436,7 +436,7 @@
 					"-ObjC",
 					"-fobjc-arc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.duksel.AppSerenity-iOS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserenity.ios.demo;
 				PRODUCT_NAME = AppSerenity;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,7 +471,7 @@
 					"-ObjC",
 					"-fobjc-arc",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.duksel.AppSerenity-iOS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appserenity.ios.demo;
 				PRODUCT_NAME = AppSerenity;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
