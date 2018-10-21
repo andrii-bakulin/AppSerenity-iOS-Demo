@@ -16,7 +16,7 @@
 {
     NSLog(@"AppSerenitySDK = %@",[AppSerenity getSdkVersion]);
 
-    [AppSerenity setLogLevel:kAppSerenityLogLevel_Warning]; // @notice: for RELEASE version recommended to use 'kAppSerenityLogLevel_None'
+    [AppSerenity setLogLevel:kAppSerenityLogLevel_Info]; // @notice: for RELEASE version recommended to use 'kAppSerenityLogLevel_None'
     
     [AppSerenity startSessionWithAppId:@"10002" appSecret:@"12345678901234567890123456789012"];
     [AppSerenity setCustomUserId:@"DemoUserId"];
