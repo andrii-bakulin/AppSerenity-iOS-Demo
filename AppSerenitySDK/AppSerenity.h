@@ -7,12 +7,26 @@
 
 #import <Foundation/Foundation.h>
 
-#define APPSERENITY_SDK_VERSION     @"7.0.2"
+//----------------------------------------------------------------------------------------------------------------------
+
+typedef enum
+{
+    kAppSerenityLogLevel_None           = 0,
+    kAppSerenityLogLevel_Info           = 1,
+    kAppSerenityLogLevel_Warning        = 2,
+    kAppSerenityLogLevel_Error          = 4,
+}   kAppSerenityLogLevel;
+
+//----------------------------------------------------------------------------------------------------------------------
 
 @interface AppSerenity : NSObject
 
 + (void)startSessionWithAppId:(NSString*)appId appSecret:(NSString*)appSecret;
 
 + (void)setCustomUserId:(NSString*)userCustomId;
+
++ (void)setLogLevel:(kAppSerenityLogLevel)logLevel;
+
++ (NSString*)getSdkVersion;
 
 @end
