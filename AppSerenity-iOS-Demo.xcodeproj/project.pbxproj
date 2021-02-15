@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,15 +13,19 @@
 		11175F4421422B57006C8334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11175F4321422B57006C8334 /* Assets.xcassets */; };
 		11175F4721422B57006C8334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11175F4521422B57006C8334 /* LaunchScreen.storyboard */; };
 		11175F4A21422B57006C8334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11175F4921422B57006C8334 /* main.m */; };
+		113CC235256828DA00FAC93E /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113CC22F256828DA00FAC93E /* GoogleMobileAds.xcframework */; };
+		113CC236256828DA00FAC93E /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113CC230256828DA00FAC93E /* GoogleAppMeasurement.framework */; };
+		113CC237256828DA00FAC93E /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113CC231256828DA00FAC93E /* UserMessagingPlatform.xcframework */; };
+		113CC238256828DA00FAC93E /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113CC232256828DA00FAC93E /* GoogleUtilities.xcframework */; };
+		113CC239256828DA00FAC93E /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113CC233256828DA00FAC93E /* nanopb.xcframework */; };
+		113CC23A256828DA00FAC93E /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113CC234256828DA00FAC93E /* PromisesObjC.xcframework */; };
+		113F592D25682B9300BA7290 /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 113F592C25682B9300BA7290 /* AppLovinSDKResources.bundle */; };
 		1190649921540E6F002880C0 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1190649821540E6F002880C0 /* AdColony.framework */; };
 		1190649C215410F7002880C0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1190649B215410F7002880C0 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1190649E2154115B002880C0 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1190649D2154115B002880C0 /* WatchConnectivity.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		11AFA1F321423E55006AEB38 /* AppSerenitySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1E421423E55006AEB38 /* AppSerenitySDK.a */; };
 		11AFA1F421423E55006AEB38 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1E921423E55006AEB38 /* UnityAds.framework */; };
-		11AFA1F521423E55006AEB38 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1EB21423E55006AEB38 /* FBAudienceNetwork.framework */; };
 		11AFA1F621423E55006AEB38 /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1ED21423E55006AEB38 /* AppLovinSDK.framework */; };
-		11AFA1F721423E55006AEB38 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1EF21423E55006AEB38 /* GoogleMobileAds.framework */; };
-		11AFA1F821423E55006AEB38 /* CHAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1F121423E55006AEB38 /* CHAMoatMobileAppKit.framework */; };
 		11AFA1F921423E55006AEB38 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFA1F221423E55006AEB38 /* Chartboost.framework */; };
 		11AFA1FB21424ECE006AEB38 /* AppSerenity-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AFA1FA21424ECE006AEB38 /* AppSerenity-Logo.png */; };
 /* End PBXBuildFile section */
@@ -37,6 +41,13 @@
 		11175F4621422B57006C8334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11175F4821422B57006C8334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11175F4921422B57006C8334 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		113CC22F256828DA00FAC93E /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		113CC230256828DA00FAC93E /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		113CC231256828DA00FAC93E /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		113CC232256828DA00FAC93E /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		113CC233256828DA00FAC93E /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		113CC234256828DA00FAC93E /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		113F592C25682B9300BA7290 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
 		1190649821540E6F002880C0 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
 		1190649B215410F7002880C0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		1190649D2154115B002880C0 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
@@ -48,10 +59,7 @@
 		11AFA1E521423E55006AEB38 /* AppSerenity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSerenity.h; sourceTree = "<group>"; };
 		11AFA1E621423E55006AEB38 /* AppSerenityAdsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSerenityAdsDelegate.h; sourceTree = "<group>"; };
 		11AFA1E921423E55006AEB38 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
-		11AFA1EB21423E55006AEB38 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		11AFA1ED21423E55006AEB38 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
-		11AFA1EF21423E55006AEB38 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		11AFA1F121423E55006AEB38 /* CHAMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CHAMoatMobileAppKit.framework; sourceTree = "<group>"; };
 		11AFA1F221423E55006AEB38 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
 		11AFA1FA21424ECE006AEB38 /* AppSerenity-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppSerenity-Logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,15 +70,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1190649E2154115B002880C0 /* WatchConnectivity.framework in Frameworks */,
+				113CC235256828DA00FAC93E /* GoogleMobileAds.xcframework in Frameworks */,
+				113CC236256828DA00FAC93E /* GoogleAppMeasurement.framework in Frameworks */,
+				113CC238256828DA00FAC93E /* GoogleUtilities.xcframework in Frameworks */,
 				1190649C215410F7002880C0 /* Social.framework in Frameworks */,
-				11AFA1F821423E55006AEB38 /* CHAMoatMobileAppKit.framework in Frameworks */,
-				11AFA1F521423E55006AEB38 /* FBAudienceNetwork.framework in Frameworks */,
 				11AFA1F321423E55006AEB38 /* AppSerenitySDK.a in Frameworks */,
 				11AFA1F921423E55006AEB38 /* Chartboost.framework in Frameworks */,
-				11AFA1F721423E55006AEB38 /* GoogleMobileAds.framework in Frameworks */,
+				113CC23A256828DA00FAC93E /* PromisesObjC.xcframework in Frameworks */,
 				11AFA1F621423E55006AEB38 /* AppLovinSDK.framework in Frameworks */,
 				11AFA1F421423E55006AEB38 /* UnityAds.framework in Frameworks */,
+				113CC237256828DA00FAC93E /* UserMessagingPlatform.xcframework in Frameworks */,
 				1190649921540E6F002880C0 /* AdColony.framework in Frameworks */,
+				113CC239256828DA00FAC93E /* nanopb.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +162,6 @@
 				11AFA1EE21423E55006AEB38 /* AdMob */,
 				11AFA1EC21423E55006AEB38 /* AppLovin */,
 				11AFA1F021423E55006AEB38 /* Chartboost */,
-				11AFA1EA21423E55006AEB38 /* FacebookSDK */,
 				11AFA1E821423E55006AEB38 /* UnityAds */,
 			);
 			path = Frameworks;
@@ -165,18 +175,11 @@
 			path = UnityAds;
 			sourceTree = "<group>";
 		};
-		11AFA1EA21423E55006AEB38 /* FacebookSDK */ = {
-			isa = PBXGroup;
-			children = (
-				11AFA1EB21423E55006AEB38 /* FBAudienceNetwork.framework */,
-			);
-			path = FacebookSDK;
-			sourceTree = "<group>";
-		};
 		11AFA1EC21423E55006AEB38 /* AppLovin */ = {
 			isa = PBXGroup;
 			children = (
 				11AFA1ED21423E55006AEB38 /* AppLovinSDK.framework */,
+				113F592C25682B9300BA7290 /* AppLovinSDKResources.bundle */,
 			);
 			path = AppLovin;
 			sourceTree = "<group>";
@@ -184,7 +187,12 @@
 		11AFA1EE21423E55006AEB38 /* AdMob */ = {
 			isa = PBXGroup;
 			children = (
-				11AFA1EF21423E55006AEB38 /* GoogleMobileAds.framework */,
+				113CC230256828DA00FAC93E /* GoogleAppMeasurement.framework */,
+				113CC22F256828DA00FAC93E /* GoogleMobileAds.xcframework */,
+				113CC232256828DA00FAC93E /* GoogleUtilities.xcframework */,
+				113CC233256828DA00FAC93E /* nanopb.xcframework */,
+				113CC234256828DA00FAC93E /* PromisesObjC.xcframework */,
+				113CC231256828DA00FAC93E /* UserMessagingPlatform.xcframework */,
 			);
 			path = AdMob;
 			sourceTree = "<group>";
@@ -192,7 +200,6 @@
 		11AFA1F021423E55006AEB38 /* Chartboost */ = {
 			isa = PBXGroup;
 			children = (
-				11AFA1F121423E55006AEB38 /* CHAMoatMobileAppKit.framework */,
 				11AFA1F221423E55006AEB38 /* Chartboost.framework */,
 			);
 			path = Chartboost;
@@ -256,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11175F4721422B57006C8334 /* LaunchScreen.storyboard in Resources */,
+				113F592D25682B9300BA7290 /* AppLovinSDKResources.bundle in Resources */,
 				11AFA1FB21424ECE006AEB38 /* AppSerenity-Logo.png in Resources */,
 				11175F4421422B57006C8334 /* Assets.xcassets in Resources */,
 				11175F4221422B56006C8334 /* Main.storyboard in Resources */,
